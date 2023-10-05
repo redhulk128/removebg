@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/removebg/static/css/main.f921f77e.css",
+    "main.js": "/removebg/static/js/main.2033483d.js",
+    "index.html": "/removebg/index.html",
+    "main.f921f77e.css.map": "/removebg/static/css/main.f921f77e.css.map",
+    "main.2033483d.js.map": "/removebg/static/js/main.2033483d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f921f77e.css",
+    "static/js/main.2033483d.js"
+  ]
+}

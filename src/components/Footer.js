@@ -6,7 +6,7 @@ export default class Footer extends Component {
       <div>
         <footer className="footer">
           <div className="container">
-            <span className="text-muted">made with <i className="fa fa-heart heart"/> by</span><a href="https://www.serdarbudak.com.tr">Serdar Budak</a>
+            <span className="text-muted">&copy; A</span><a href="https://redhulk.in">redhulk.in</a> Product
           </div>
         </footer>
       </div>

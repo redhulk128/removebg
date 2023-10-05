@@ -1,6 +1,7 @@
 {
+  "homepage": "https://redhulkk.github.io/removebg",
   "name": "remove-image-background",
-  "author": "Serdar Budak",
+  "author": "Sumalya Chatterjee",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "blueimp-load-image": "^5.14.0",
+    "gh-pages": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
@@ -16,6 +18,8 @@
     "request": "^2.88.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
